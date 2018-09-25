@@ -15,5 +15,5 @@ before_install:
 script:
   - git clone https://$account:$token@$repo repo
   - cd repo
-  - ci.sh
+  - ./ci.sh
 
